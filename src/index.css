@@ -1,0 +1,49 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+  padding: 60px;
+}
+
+h2{
+  font-style: normal;
+  font-weight: 500000;
+  color: rgb(182, 41, 41);
+}
+
+input{
+  color: gray;
+  font-size: 1.2rem;
+  width: 100%;
+  border-color: rgb(66, 129, 129);
+
+}
+.cardGrid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+.card{
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-height: 170px;
+  max-width: 300px;
+  margin: 30px;
+}
+
